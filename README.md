@@ -10,7 +10,7 @@ $ brew create https://github.com/prongbang/localizegen/archive/refs/tags/v1.0.2.
 
 Output
 
-- [localizegen.rb](https://github.com/prongbang/homebrew-formulae/localizegen.rb)
+- [localizegen.rb](https://github.com/prongbang/homebrew-formulae/blob/master/localizegen.rb)
 
 You can check whether your formula is working or not by installing your application from specifying the formula.
 
