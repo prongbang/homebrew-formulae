@@ -2,7 +2,7 @@ class Localizegen < Formula
 	desc "Google Sheet Analytics Generator supported Flutter, Android, and iOS"
 	homepage "https://github.com/prongbang/analyticsgen"
 	url "https://github.com/prongbang/analyticsgen/archive/refs/tags/v1.0.0.tar.gz"
-	sha256 "3a73f4212e041421fb6d0d655201eb934a5dc49fdfcb2e52d5f5c6c1bbd02753"
+	sha256 "b2d2760a20ba2a09bf5e5c65a0e110d987597c91b5c43f2085777e480bdd78da"
 	license "MIT"
 
 	bottle :unneeded
