@@ -1,4 +1,4 @@
-class Localizegen < Formula
+class Analyticsgen < Formula
 	desc "Google Sheet Analytics Generator supported Flutter, Android, and iOS"
 	homepage "https://github.com/prongbang/analyticsgen"
 	url "https://github.com/prongbang/analyticsgen/archive/refs/tags/v1.0.0.tar.gz"
