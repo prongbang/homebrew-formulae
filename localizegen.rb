@@ -1,8 +1,8 @@
 class Localizegen < Formula
 	desc "Generate Localization tools for Mobile Application an Android, iOS"
 	homepage "https://github.com/prongbang/localizegen"
-	url "https://github.com/prongbang/localizegen/archive/refs/tags/v1.0.10.tar.gz"
-	sha256 "f47a6bfe620d2a94522179228e6f1cce8319406051cc38511d9c0a1bd9109b18"
+	url "https://github.com/prongbang/localizegen/archive/refs/tags/v1.1.0.tar.gz"
+	sha256 "b15c8cbf4946b0487641100f7a93d476ff64bd0fd809c09fc71c18290e642e31"
 	license "MIT"
 
 	bottle :unneeded
