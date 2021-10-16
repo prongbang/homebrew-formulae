@@ -5,7 +5,7 @@
 Generate Formula
 
 ```shell
-$ brew create https://github.com/prongbang/localizegen/archive/refs/tags/v1.0.9.tar.gz
+$ brew create https://github.com/prongbang/localizegen/archive/refs/tags/v1.0.10.tar.gz
 ```
 
 Please run `brew audit --new localizegen` before submitting, thanks.
