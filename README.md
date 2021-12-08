@@ -46,6 +46,7 @@ Output
 - [analyticsgen.rb](https://github.com/prongbang/homebrew-formulae/blob/master/analyticsgen.rb)
 
 ```shell
+$ brew update
 $ brew tap prongbang/homebrew-formulae
 $ brew install analyticsgen
 ```
