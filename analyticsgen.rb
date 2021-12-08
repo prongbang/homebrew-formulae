@@ -1,8 +1,8 @@
 class Analyticsgen < Formula
 	desc "Google Sheet Analytics Generator supported Flutter, Android, and iOS"
 	homepage "https://github.com/prongbang/analyticsgen"
-	url "https://github.com/prongbang/analyticsgen/archive/refs/tags/v1.0.3.tar.gz"
-	sha256 "f90d20f8b32ba4f6a4e2c4695685b8a0ac12509cdf3f822f380bb000e874f3f5"
+	url "https://github.com/prongbang/analyticsgen/archive/refs/tags/v1.0.4.tar.gz"
+	sha256 "2338a2623f3f55ac5335d08db363190894fe84fe1a618511207a1399b0b0bad2"
 	license "MIT"
 
 	bottle :unneeded
