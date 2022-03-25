@@ -5,8 +5,6 @@ class Localizegen < Formula
 	sha256 "c624252a98c5ead724f5a9d1f9316b03f90cb60494dc4b05e8b5701390145c6f"
 	license "MIT"
 
-	bottle :unneeded
-
 	def install
 		bin.install "localizegen"
 	end
