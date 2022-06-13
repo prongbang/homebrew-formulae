@@ -1,4 +1,4 @@
-class IntegrationTestGen < Formula
+class IntegrationTestgen < Formula
 	desc "Generate Page Object Model dart class by spec.yml"
 	homepage "https://github.com/prongbang/integration_testgen"
 	url "https://github.com/prongbang/integration_testgen/archive/refs/tags/1.0.0.tar.gz"
