@@ -38,7 +38,7 @@ $ brew install localizegen
 Generate Formula
 
 ```shell
-$ brew create https://github.com/prongbang/analyticsgen/archive/refs/tags/v1.0.4.tar.gz
+$ brew create https://github.com/prongbang/analyticsgen/archive/refs/tags/v1.0.5.tar.gz
 ```
 
 Output
