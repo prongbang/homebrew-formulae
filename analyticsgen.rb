@@ -5,8 +5,6 @@ class Analyticsgen < Formula
   	sha256 "8f9bc2873943d5dbcdc7fd25f5ac444cfb128a05eff81bb1370f3403f0a4a80c"
 	license "MIT"
 
-	bottle :unneeded
-
 	def install
 		bin.install "bin/macos/analyticsgen"
 	end
