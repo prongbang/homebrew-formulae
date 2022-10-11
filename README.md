@@ -73,5 +73,7 @@ $ brew install --build-from-source integration_testgen
 ```shell
 $ brew update
 $ brew tap prongbang/homebrew-formulae
+$ brew uninstall integration_testgen
+$ brew cleanup integration_testgen
 $ brew install integration_testgen
 ```
