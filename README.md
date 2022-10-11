@@ -39,6 +39,7 @@ Generate Formula
 
 ```shell
 $ brew create https://github.com/prongbang/analyticsgen/archive/refs/tags/v1.0.5.tar.gz
+$ brew audit --new integration_testgen
 ```
 
 Output
