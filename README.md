@@ -39,7 +39,6 @@ Generate Formula
 
 ```shell
 $ brew create https://github.com/prongbang/analyticsgen/archive/refs/tags/v1.0.5.tar.gz
-$ brew audit --new integration_testgen
 ```
 
 Output
@@ -50,4 +49,29 @@ Output
 $ brew update
 $ brew tap prongbang/homebrew-formulae
 $ brew install analyticsgen
+```
+
+
+## integration_testgen
+
+Generate Formula
+
+```shell
+$ brew create https://github.com/prongbang/integration_testgen/archive/refs/tags/1.0.1.tar.gz
+```
+
+Output
+
+- [integration_testgen.rb](https://github.com/prongbang/homebrew-formulae/blob/master/integration_testgen.rb)
+
+You can check whether your formula is working or not by installing your application from specifying the formula.
+
+```shell
+$ brew install --build-from-source integration_testgen
+```
+
+```shell
+$ brew update
+$ brew tap prongbang/homebrew-formulae
+$ brew install integration_testgen
 ```
