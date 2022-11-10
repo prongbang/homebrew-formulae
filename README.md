@@ -57,7 +57,7 @@ $ brew install analyticsgen
 Generate Formula
 
 ```shell
-$ brew create https://github.com/prongbang/integration_testgen/archive/refs/tags/1.0.1.tar.gz
+$ brew create https://github.com/prongbang/integration_testgen/archive/refs/tags/1.1.0.tar.gz
 ```
 
 Output
