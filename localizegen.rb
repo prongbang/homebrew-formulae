@@ -6,17 +6,7 @@ class Localizegen < Formula
 	license "MIT"
 
 	def install
-		on_macos do
-          bin.install "localizegen"
-        end
-
-        on_linux do
-          bin.install "binary/linux/localizegen"
-        end
-
-        on_windows do
-          bin.install "binary/windows/localizegen"
-        end
+		bin.install "localizegen"
 	end
 
 	test do
