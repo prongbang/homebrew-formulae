@@ -6,11 +6,11 @@ checksum:
 
 # make checksum_localizegen
 checksum_localizegen:
-	make checksum name=localizegen version=v1.1.0
+	make checksum name=localizegen version=v1.1.6
 
 # make checksum_analyticsgen
 checksum_analyticsgen:
-	make checksum name=analyticsgen version=v1.0.0
+	make checksum name=analyticsgen version=v1.0.5
 
 # make checksum_integration_testgen
 checksum_integration_testgen:
