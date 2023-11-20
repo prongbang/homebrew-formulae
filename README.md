@@ -77,3 +77,45 @@ $ brew uninstall integration_testgen
 $ brew cleanup integration_testgen
 $ brew install integration_testgen
 ```
+
+## Check platforms
+
+```ruby
+  on_macos do
+    if Hardware::CPU.intel?
+      url "https://github.com/[username]/[execute_file]/releases/download/[version]/[execute_file]_[version]_Darwin_x86_64.tar.gz"
+      sha256 "checksum"
+
+      def install
+        bin.install "[execute_file]"
+      end
+    end
+    if Hardware::CPU.arm?
+      url "https://github.com/[username]/[execute_file]/releases/download/[version]/[execute_file]_[version]_Darwin_arm64.tar.gz"
+      sha256 "checksum"
+
+      def install
+        bin.install "[execute_file]"
+      end
+    end
+  end
+
+  on_linux do
+    if Hardware::CPU.intel?
+      url "https://github.com/[username]/[execute_file]/releases/download/[version]/[execute_file]_[version]_Linux_x86_64.tar.gz"
+      sha256 "checksum"
+
+      def install
+        bin.install "[execute_file]"
+      end
+    end
+    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
+      url "https://github.com/[username]/[execute_file]/releases/download/[version]/[execute_file]_[version]_Linux_arm64.tar.gz"
+      sha256 "checksum"
+
+      def install
+        bin.install "[execute_file]"
+      end
+    end
+  end
+```
