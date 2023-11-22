@@ -5,16 +5,16 @@ class IntegrationTestgen < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prongbang/integration_testgen/archive/refs/tags/1.1.0.tar.gz"
-      sha256 "91a5055771f8f381c663aa51a9f45aa9a9b4a86519444815fc786d150fbe4af4"
+      url "https://github.com/prongbang/integration_testgen/releases/download/2.0.1/2.0.1_Darwin_arm64.tar.gz"
+      sha256 "ed2ce234c9b46914d60ad28c9e8a85feee4a938431b16dd486f0355eabea2a32"
 
       def install
         bin.install "bin/integration_testgen"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/prongbang/integration_testgen/archive/refs/tags/2.0.0.tar.gz"
-      sha256 "74e795324d91f592254f4304c6eb8a5003af38fb9dd818a92854114958c870e0"
+      url "https://github.com/prongbang/integration_testgen/releases/download/2.0.1/2.0.1_Darwin_arm64.tar.gz"
+      sha256 "ed2ce234c9b46914d60ad28c9e8a85feee4a938431b16dd486f0355eabea2a32"
 
       def install
         bin.install "bin/integration_testgen"

@@ -20,7 +20,7 @@ checksum_analyticsgen:
 
 # make checksum_integration_testgen
 checksum_integration_testgen:
-	make checksum_archive name=integration_testgen version=2.0.0
+	make checksum_archive name=integration_testgen platform=Darwin_arm64 version=2.0.1
 
 # make checksum_postman_runner
 checksum_postman_runner:
