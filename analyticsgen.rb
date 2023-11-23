@@ -21,7 +21,7 @@ class Analyticsgen < Formula
     end
   end
 
-  on_windows do
+  on_window do
     def install
       bin.install "bin/windows/analyticsgen.exe"
     end
