@@ -16,6 +16,6 @@ class Analyticsgen < Formula
   end
 
   test do
-    system "#{bin}/analyticsgen"
+    system "#{bin}/macos/analyticsgen"
   end
 end
