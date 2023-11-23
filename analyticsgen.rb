@@ -13,10 +13,6 @@ class Analyticsgen < Formula
     on_linux do
       bin.install "bin/linux/analyticsgen"
     end
-
-    if OS.windows?
-      bin.install "bin/windows/analyticsgen.exe"
-    end
   end
 
   test do
