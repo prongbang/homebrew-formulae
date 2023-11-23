@@ -16,7 +16,7 @@ checksum_localizegen:
 
 # make checksum_analyticsgen
 checksum_analyticsgen:
-	make checksum_archive name=analyticsgen version=v1.0.5
+	make checksum_archive name=analyticsgen version=v1.0.6
 
 # make checksum_integration_testgen
 checksum_integration_testgen:
