@@ -24,5 +24,5 @@ checksum_integration_testgen:
 
 # make checksum_postman_runner
 checksum_postman_runner:
-	make checksum_release name=postman-runner platform=Darwin_x86_64 version=0.1.5
-	make checksum_release name=postman-runner platform=Darwin_arm64 version=0.1.5
+	make checksum_release name=postman-runner platform=Darwin_x86_64 version=0.2.0
+	make checksum_release name=postman-runner platform=Darwin_arm64 version=0.2.0
