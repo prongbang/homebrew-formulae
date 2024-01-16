@@ -1,4 +1,4 @@
-class Serve < Formula
+class Server < Formula
   desc "Rust-based HTTP server, serves any directory, inspired by python -m http.server."
   homepage "https://github.com/prongbang/serve"
   license "MIT"
