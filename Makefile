@@ -27,7 +27,7 @@ checksum_postman_runner:
 	make checksum_release name=postman-runner platform=Darwin_x86_64 version=0.2.0
 	make checksum_release name=postman-runner platform=Darwin_arm64 version=0.2.0
 
-# make checksum_serve
-checksum_serve:
-	make checksum_release name=serve platform=Darwin_x86_64 version=0.1.0
-	make checksum_release name=serve platform=Darwin_arm64 version=0.1.0
+# make checksum_server
+checksum_server:
+	make checksum_release name=server platform=Darwin_x86_64 version=0.1.0
+	make checksum_release name=server platform=Darwin_arm64 version=0.1.0
