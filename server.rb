@@ -5,12 +5,12 @@ class Server < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prongbang/server/releases/download/0.2.1/0.2.1_Darwin_x86_64.tar.gz"
-      sha256 "fc67c65171dfa8024efdbe79eff4c2967f3df4c57a234f3258ff5258d641a219"
+      url "https://github.com/prongbang/server/releases/download/0.2.2/0.2.2_Darwin_x86_64.tar.gz"
+      sha256 "b6aad6aa21a1fe1beaa6bbb2013ea3ceff5f6acbc335159dce8fd469d1b1f03c"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/prongbang/server/releases/download/0.2.1/0.2.1_Darwin_arm64.tar.gz"
-      sha256 "b5f3438f09a3f258cb7c8c2d527aebbeb54aaf5e33c15d7b7d20b6f1e84b397c"
+      url "https://github.com/prongbang/server/releases/download/0.2.2/0.2.2_Darwin_arm64.tar.gz"
+      sha256 "f131f853e30eb1d8c1622171836fbed9322aaba7a59dbd5ddd5f27d84e51dd00"
     end
 
     def install
