@@ -36,3 +36,8 @@ checksum_server:
 checksum_icongen:
 	make checksum_release name=icongen platform=Darwin_x86_64 version=0.1.0
 	make checksum_release name=icongen platform=Darwin_arm64 version=0.1.0
+
+# make checksum_herpy
+checksum_herpy:
+	make checksum_release name=herpy platform=Darwin_x86_64 version=0.1.0
+	make checksum_release name=herpy platform=Darwin_arm64 version=0.1.0
