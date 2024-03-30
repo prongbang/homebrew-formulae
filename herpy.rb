@@ -5,12 +5,12 @@ class Herpy < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prongbang/herpy/releases/download/0.1.0/0.1.0_Darwin_x86_64.tar.gz"
-      sha256 "5ad91d4170b381b1cd4149d53a7c6f8a7ba3df2473fe204f1a8ee757343e8232"
+      url "https://github.com/prongbang/herpy/releases/download/0.1.1/0.1.1_Darwin_x86_64.tar.gz"
+      sha256 "4b28f9058de362613493d6e2358594b7ad874b8fe7b12053157b001050153d6f"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/prongbang/herpy/releases/download/0.1.0/0.1.0_Darwin_arm64.tar.gz"
-      sha256 "a03496b0ce61c910f97583bee9f289281e654bc47882289e644e0e47733794ae"
+      url "https://github.com/prongbang/herpy/releases/download/0.1.1/0.1.1_Darwin_arm64.tar.gz"
+      sha256 "1b54c189eada7ab0377177dc62b72b9422d3d883eb24eb37b62a23f2339421b2"
     end
 
     def install
