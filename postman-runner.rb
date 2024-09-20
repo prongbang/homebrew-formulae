@@ -5,16 +5,16 @@ class PostmanRunner < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prongbang/postman-runner/releases/download/0.3.0/0.3.0_Darwin_x86_64.tar.gz"
-      sha256 "97ba150ecb07ea07e2798f98580461ff319f633e9294627aaf1dc1e5ca38540b"
+      url "https://github.com/prongbang/postman-runner/releases/download/0.3.1/0.3.1_Darwin_x86_64.tar.gz"
+      sha256 "94d3e42a38ff7a3919beac06771be346addc7e3bc79df69ce58532cca6812e7c"
 
       def install
         bin.install "postman-runner"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/prongbang/postman-runner/releases/download/0.3.0/0.3.0_Darwin_arm64.tar.gz"
-      sha256 "e7f7d619f35c611c60faf8af904d0fc942087392207ecce6c87a32e6bbe24f34"
+      url "https://github.com/prongbang/postman-runner/releases/download/0.3.1/0.3.1_Darwin_arm64.tar.gz"
+      sha256 "a0b3425ee384f16744864c1699ec18cba9e0fee5e3634b7160ed60c38e69f709"
 
       def install
         bin.install "postman-runner"
