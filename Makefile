@@ -49,5 +49,5 @@ checksum_upstream:
 
 # make checksum_watchx
 checksum_watchx:
-	make checksum_release name=watchx platform=Darwin_x86_64 version=0.2.3
-	make checksum_release name=watchx platform=Darwin_arm64 version=0.2.3
+	make checksum_release name=watchx platform=Darwin_x86_64 version=0.3.0
+	make checksum_release name=watchx platform=Darwin_arm64 version=0.3.0
