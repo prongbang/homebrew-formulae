@@ -44,8 +44,8 @@ checksum_herpy:
 
 # make checksum_upstream
 checksum_upstream:
-	make checksum_release name=upstream platform=Darwin_x86_64 version=0.1.2
-	make checksum_release name=upstream platform=Darwin_arm64 version=0.1.2
+	make checksum_release name=upstream platform=Darwin_x86_64 version=0.1.3
+	make checksum_release name=upstream platform=Darwin_arm64 version=0.1.3
 
 # make checksum_watchx
 checksum_watchx:

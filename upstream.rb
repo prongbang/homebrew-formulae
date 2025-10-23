@@ -5,12 +5,12 @@ class Upstream < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/prongbang/upstream/releases/download/0.1.2/0.1.2_Darwin_x86_64.tar.gz"
-      sha256 "5ebf0b9f915101f641312216255f1fea9cd95741ef48c639840b11e240286fbe"
+      url "https://github.com/prongbang/upstream/releases/download/0.1.3/0.1.3_Darwin_x86_64.tar.gz"
+      sha256 "9d8a45436b928cf0ec378cdd2fd151a456395d4b670676e1e248f6e779b65141"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/prongbang/upstream/releases/download/0.1.2/0.1.2_Darwin_arm64.tar.gz"
-      sha256 "de9ea37379ad54cc15cfd50a7b986ea02f5af143728b87c2ca251f07be371315"
+      url "https://github.com/prongbang/upstream/releases/download/0.1.3/0.1.3_Darwin_arm64.tar.gz"
+      sha256 "25e0e3bb3a0fd20fca3977cd611508c8b8c620be3ea9ffe0fa4b0dcbc9b51fee"
     end
 
     def install
