@@ -51,3 +51,8 @@ checksum_upstream:
 checksum_watchx:
 	make checksum_release name=watchx platform=Darwin_x86_64 version=0.3.0
 	make checksum_release name=watchx platform=Darwin_arm64 version=0.3.0
+
+# make checksum_confctl
+checksum_confctl:
+	make checksum_release name=confctl platform=Darwin_x86_64 version=0.1.0
+	make checksum_release name=confctl platform=Darwin_arm64 version=0.1.0
